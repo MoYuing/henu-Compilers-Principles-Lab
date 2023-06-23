@@ -1,6 +1,6 @@
 import examples
 import re
-
+from res import identifiers
 
 def getBuffer(code):
     """
@@ -40,7 +40,8 @@ def findPosition(a: list, item):
         a.append(item)
         return len(a) - 1
 
-
+def findIdentName(i):
+    return identifiers[i]
 
 if __name__ == '__main__':
     # print(getBuffer(examples.exa1.s))

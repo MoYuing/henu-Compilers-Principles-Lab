@@ -133,6 +133,6 @@ begin
 end.
 """)
 exaDict['错误代码4'] = Example("""test := 1(()a+2-3*4/((((5-6)+-7;end.""")
-
+exaDict['f5'] = Example("""const limit=10;.""")
 if __name__ == '__main__':
     print(exa1.s)

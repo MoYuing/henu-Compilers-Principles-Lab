@@ -1,6 +1,6 @@
 import err
 import examples
-from lexicalAnalyzer import res
+import res
 import utils.errorHelper as error
 import utils.utils as utils
 

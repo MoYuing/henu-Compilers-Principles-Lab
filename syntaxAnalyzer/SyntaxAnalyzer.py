@@ -26,7 +26,7 @@ class SyntaxAnalyzer:
             pass
         else:
             self.curToken = self.tokenStream[self.index]
-        self.index += 1
+            self.index += 1
 
     def match(self, needToken):
         if type(needToken) != type(list()):
@@ -171,7 +171,7 @@ def run(code):
 if __name__ == "__main__":
     from lexicalAnalyzer import LexicalAnalyzer
 
-    # run(examples.exa1.s)
+    run(examples.exa1.s)
 
     # run(examples.exaDict[f'错误代码1'].s)
 
@@ -179,4 +179,4 @@ if __name__ == "__main__":
 
     # run(examples.exaDict[f'错误代码3'].s)
 
-    run(examples.exaDict[f'错误代码4'].s)
+    # run(examples.exaDict[f'错误代码4'].s)
